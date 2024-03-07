@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--The Type Of Font We Are Using-->
+    <meta charset="UTF-8">
+    <!--Tells the -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Michael Lopez">
+    <meta name="description" content="Tables and Forms">
+    
+    <link type="text/css" rel="stylesheet" href="style.css">
+
+    <title>Tables and Forms | Week 5</title>
+</head>
+<body>
+    <!--Build your Table and Form here-->
+    
+    <h1>Birthday Party Regrestration Form</h1>
+
+    <form method="GET" action="confirm.html">
+
+        <table>
+
+            <thead>
+
+                <tr>
+                    <td>
+                        <h2>Labels</h2>
+                    </td>
+
+                    <td>
+                        <h2>Form Fields</h2>
+                    </td>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <!--Table Row-->
+                <tr>
+
+                    <!--first column - LABEL -->
+                    <td>
+                        <label for="gfirst">Parent/Guardian Name</label>
+                    </td>
+
+                    <!--second column- INPUT -->
+                    <td>
+                        <input type="text" name="gfirst" id="g-first1" placeholder="First Name" maxlength="20" required> 
+
+                        <br>
+
+                        <input type="text" name="gfirst" id="g-first2" placeholder="Last Name" maxlength="20" required>
+                    </td>
+
+                </tr>
+
+                <!--Table Row-->
+                <tr>
+
+                    <!--first column - Label -->
+                    <td>
+                        <label for="cfirst">Child's First Name</label>
+                    </td>
+
+                    <!--second column- Input -->
+                    <td>
+                        <input type="text" name="childsfirst" id="c-first" placeholder="Child's First Name" required>
+                    </td>
+
+                </tr>
+
+                <!--Table Row-->
+                <tr>
+
+                    <!--first column - Label -->
+                    <td>
+                        <label for="age">Childs Age</label>
+                    </td>
+
+                    <!--second column- Input -->
+                    <td>
+                        <input type="number" name="age" id="c-age" value="3">
+                    </td>
+
+                </tr>
+
+                <!--Table Row-->
+                <tr>
+
+                    <!--first column - Label -->
+                    <td>
+                        <h2>Date and Time</h2>
+                    </td>
+
+                </tr>
+
+                <!--Table Row-->
+                <tr>
+
+                    <!--first column - Label -->
+                    <td>
+                        <label for="date">Date</label>
+                    </td>
+
+                    <!--second column- Input -->
+                    <td>
+                        <input type="date" name="date" id="date" required>
+                    </td>
+
+                </tr>
+
+                <!--Table Row-->
+                <tr>
+
+                    <!--first column - Label -->
+                    <td>
+                        <label for="time">Start Time</label>
+                    </td>
+
+                    <!--second column- Input -->
+                    <td>
+                        <input type="time" name="time" id="time" required>
+                    </td>
+
+                </tr>
+
+                <!--Table Row-->
+                <tr>
+
+                    <!--first column - Label -->
+                    <td>
+                        <label for="guests">Number of Guests</label>
+                    </td>
+
+                    <!--second column- Input -->
+                    <td>
+                        <input type="number" name="guests" id="guests" value="5">
+                    </td>
+
+                </tr>
+
+                <!--Table Row-->
+                <tr>
+
+                    <!--first column - Label -->
+                    <td>
+                        <h2>Food</h2>
+                    </td>
+
+                </tr>
+
+                <!--Table Row-->
+                <tr>
+
+                    <!--first column - Label -->
+                    <td>
+                        <label for="size">Size</label>
+                    </td>
+
+                    <!--second column- Input -->
+                    <td>
+                        <input type="radio" name="size" id="size1" value="Small"> <label>Small</label>
+
+                        <input type="radio" name="size" id="size2" value="Medium"> <label>Medium</label>
+
+                        <input type="radio" name="size" id="size3" value="Large"> <label>Large</label>
+                    </td>
+
+                </tr>
+
+                <!--Table Row-->
+                <tr>
+
+                    <!--first column - Label -->
+                    <td>
+                        <label for="drinks">Drinks</label>
+                    </td>
+
+                    <!--second column- INPUT -->
+                    <td>
+                        <input type="checkbox" name="drink1" id="drink1" value="Coke" checked> <label for="drink1">Coke</label>
+
+                        <br>
+
+                        <input type="checkbox" name="drink2" id="drink2" value="sprite" > <label for="drink2">Sprite</label>
+
+                        <br>
+
+                        <input type="checkbox" name="drink3" id="drink3" value="fruit punch" > <label for="drink3">Fruit Punch</label>
+
+                        <br>
+
+                        <input type="checkbox" name="drink4" id="drink4" value="lemonade" > <label for="drink4">Lemonade</label>
+
+                        <br>
+
+                        <input type="checkbox" name="drink5" id="drink5-" value="iced tea" > <label for="drink5">Iced Tea</label>
+                    </td>
+
+                </tr>
+
+                <!--Table Row-->
+                <tr>
+
+                    <!--first column - LABEL -->
+                    <td>
+                        <label for="cake">Cake</label>
+                    </td>
+
+                    <!--second column- INPUT -->
+                    <td>
+                        <select name="cake" id="cake">
+
+                            <option>Chocolate</option>
+
+                            <option>Vanilla</option>
+
+                            <option>Ill bring my own</option>
+
+                        </select>
+                    </td>
+
+                </tr>
+
+                <!--Table Row-->
+                <tr>
+
+                    <!--first column - LABEL -->
+                    <td>
+                        <h2>Decorations</h2>
+                    </td>
+
+                </tr>
+
+                <!--Table Row-->
+                <tr>
+
+                    <!--first column - LABEL -->
+                    <td>
+                        <label for="colors">Color Scheme</label>
+                    </td>
+
+                    <!--second column- INPUT -->
+                    <td>
+                        <input type="color" name="colors" id="colors">
+                    </td>
+
+                </tr>
+
+                <!--Table Row-->
+                <tr>
+
+                    <!--first column - LABEL -->
+                    <td>
+                        <label for="comments">Additional Comments</label>
+                    </td>
+
+                    <!--second column- INPUT -->
+                    <td>
+                        <textarea placeholder="Please add any additional comments here" name="comments" id="comments"></textarea>
+                    </td>
+
+                </tr>
+
+                <!--Table Row-->
+                <tr>
+
+                    <!--first column - LABEL -->
+                    <td>
+                        <label></label>
+                    </td>
+
+                    <!--second column- INPUT -->
+                    <td>
+                        <input type="submit" value="submit" id="submit">
+                    </td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </form>
+
+</body>
+</html>
